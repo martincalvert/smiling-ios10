@@ -14,6 +14,7 @@
 		B7E7F4741E617F8A009459F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E7F4721E617F8A009459F3 /* LaunchScreen.storyboard */; };
 		B7E7F47F1E617F8A009459F3 /* faceView_ios10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E7F47E1E617F8A009459F3 /* faceView_ios10Tests.swift */; };
 		B7E7F48A1E617F8A009459F3 /* faceView_ios10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E7F4891E617F8A009459F3 /* faceView_ios10UITests.swift */; };
+		B7E7F4991E61802D009459F3 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E7F4981E61802D009459F3 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B7E7F4851E617F8A009459F3 /* faceView-ios10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "faceView-ios10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E7F4891E617F8A009459F3 /* faceView_ios10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faceView_ios10UITests.swift; sourceTree = "<group>"; };
 		B7E7F48B1E617F8A009459F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E7F4981E61802D009459F3 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,10 @@
 		B7E7F4681E617F8A009459F3 /* faceView-ios10 */ = {
 			isa = PBXGroup;
 			children = (
-				B7E7F4691E617F8A009459F3 /* AppDelegate.swift */,
+				B7E7F4981E61802D009459F3 /* FaceView.swift */,
 				B7E7F46B1E617F8A009459F3 /* ViewController.swift */,
 				B7E7F46D1E617F8A009459F3 /* Main.storyboard */,
-				B7E7F4701E617F8A009459F3 /* Assets.xcassets */,
-				B7E7F4721E617F8A009459F3 /* LaunchScreen.storyboard */,
-				B7E7F4751E617F8A009459F3 /* Info.plist */,
+				B7E7F4971E617FB9009459F3 /* Supporting Files */,
 			);
 			path = "faceView-ios10";
 			sourceTree = "<group>";
@@ -123,6 +123,17 @@
 				B7E7F48B1E617F8A009459F3 /* Info.plist */,
 			);
 			path = "faceView-ios10UITests";
+			sourceTree = "<group>";
+		};
+		B7E7F4971E617FB9009459F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E7F4691E617F8A009459F3 /* AppDelegate.swift */,
+				B7E7F4701E617F8A009459F3 /* Assets.xcassets */,
+				B7E7F4751E617F8A009459F3 /* Info.plist */,
+				B7E7F4721E617F8A009459F3 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 			files = (
 				B7E7F46C1E617F8A009459F3 /* ViewController.swift in Sources */,
 				B7E7F46A1E617F8A009459F3 /* AppDelegate.swift in Sources */,
+				B7E7F4991E61802D009459F3 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
